@@ -1,0 +1,61 @@
+.BuildControlsWrapper {
+  width: 100%;
+  height: 345px;
+  display: flex;
+  flex-flow: column;
+  background: #64e291;
+}
+
+.BuildControls {
+  width: 100%;
+  overflow-y: scroll;
+  flex-flow: column;
+  overflow-x: auto;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 1px #ccc;
+  margin: auto;
+  padding: 10px 0;
+}
+
+.Price {
+  height: 70px;
+  padding-top: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  line-height: 75px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.Order {
+  height: 90px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.OrderButton {
+  background-color: #fec771;
+  padding: 10px 50px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.OrderButton:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.OrderButton:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.OrderButton:disabled {
+  background-color: #ccc;
+  box-shadow: none;
+  cursor: no-drop;
+}
