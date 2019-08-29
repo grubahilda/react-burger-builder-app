@@ -1,0 +1,24 @@
+.Button {
+  background-color: #fec771;
+  padding: 10px 50px;
+  margin: 10px 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.Button:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.Button:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.Button:disabled {
+  background-color: #ccc;
+  box-shadow: none;
+  cursor: no-drop;
+}

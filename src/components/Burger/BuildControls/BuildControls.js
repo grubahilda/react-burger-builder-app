@@ -13,7 +13,7 @@ const controls = [
   { label: "Cheese", type: "cheese" },
   { label: "Bacon", type: "bacon" },
   { label: "Beyond Burger", type: "burger" },
-  { label: "Chickpea Patty", type: "chickeapatty" },
+  { label: "Chickpea Patty", type: "chickea" },
   { label: "Mostard", type: "mostard" },
   { label: "Aioli sauce", type: "aioli" },
   { label: "Ketchup", type: "ketchup" },
@@ -36,7 +36,11 @@ const buildControls = props => (
       ))}
     </div>
     <div className={classes.Order}>
-      <button className={classes.OrderButton} disabled={!props.purchaseable}>
+      <button
+        className={classes.OrderButton}
+        disabled={!props.purchaseable}
+        onClick={() => props.ordered()}
+      >
         CHECKOUT
       </button>
     </div>
