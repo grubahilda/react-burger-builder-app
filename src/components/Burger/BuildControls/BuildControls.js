@@ -3,21 +3,21 @@ import classes from "./BuildControls.css";
 import BuildControl from "./BuildControl/BuildControl";
 
 const controls = [
-  { label: "Romain lettuce", type: "romain" },
-  { label: "Rocket", type: "rocket" },
-  { label: "Lettuce", type: "lettuce" },
+  { label: "Beyond Burger", type: "burger" },
+  { label: "Chickpea Patty", type: "chickea" },
+  { label: "Vegan cheese", type: "cheese" },
+  { label: "Vegan bacon", type: "bacon" },
   { label: "Tomato", type: "tomato" },
   { label: "Pickle", type: "pickle" },
   { label: "Raw onion", type: "rawonion" },
   { label: "Fried onion", type: "friedonion" },
-  { label: "Cheese", type: "cheese" },
-  { label: "Bacon", type: "bacon" },
-  { label: "Beyond Burger", type: "burger" },
-  { label: "Chickpea Patty", type: "chickea" },
+  { label: "Romain lettuce", type: "romain" },
+  { label: "Rocket", type: "rocket" },
+  { label: "Lettuce", type: "lettuce" },
   { label: "Mostard", type: "mostard" },
   { label: "Aioli sauce", type: "aioli" },
   { label: "Ketchup", type: "ketchup" },
-  { label: "Mayo", type: "mayo" }
+  { label: "Vegan mayo", type: "mayo" }
 ];
 
 const buildControls = props => (

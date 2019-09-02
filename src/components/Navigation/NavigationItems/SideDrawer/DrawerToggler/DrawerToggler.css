@@ -1,0 +1,28 @@
+.DrawerToggler {
+  width: 30px;
+  border-radius: 30px;
+  height: 3px;
+  margin-top: 15px;
+  background-color: white;
+  position: relative;
+}
+
+.DrawerToggler::before {
+  content: "";
+  width: 30px;
+  border-radius: inherit;
+  height: 3px;
+  margin-top: -10px;
+  position: absolute;
+  background-color: white;
+}
+
+.DrawerToggler::after {
+  content: "";
+  width: 30px;
+  border-radius: inherit;
+  height: 3px;
+  margin-top: 10px;
+  position: absolute;
+  background-color: white;
+}
