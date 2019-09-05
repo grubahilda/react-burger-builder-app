@@ -11,6 +11,8 @@ const orderSummary = props => {
           {props.ingredients[ingKey]}
         </li>
       );
+    } else {
+      return null;
     }
   });
 

@@ -26,3 +26,9 @@
   position: absolute;
   background-color: white;
 }
+
+@media (min-width: 500px) {
+  .DrawerToggler {
+    display: none;
+  }
+}
